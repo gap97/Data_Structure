@@ -2,7 +2,7 @@
 
 ## 0. 설명
 C언어를 이용하여 구현한 Data Structure(Stack, List, Queue)입니다.
-
+---
 
 
 
@@ -65,7 +65,7 @@ CountStackItem(Stack *pStack): 스택에 얼마만큼의 항목이 있는지 알
 
 
 
-
+---
 ## 2. Queue
 컴퓨터의 기본적인 자료 구조의 한가지로, 먼저 집어 넣은 데이터가 먼저 나오는 FIFO(First In First Out)구조로 저장하는 형식입니다. 큐(Queue)는 FIFO(First-In-First-Out) 를 따릅니다.
 
@@ -120,7 +120,7 @@ peek(Queue *Q) : 큐에서 맨 앞의 item이 무엇인지 볼 수 있습니다.
 
 
 
-
+---
 ## 3. List
 순서가 있는 데이터의 모임입니다.
 
@@ -178,7 +178,7 @@ void DestroyList(List *list) : list를 삭제합니다.
 
 
 
-
+---
 ## 4. 그 외
 C언어를 이용한 데크가 구현되어있습니다.
 
@@ -186,7 +186,7 @@ C언어를 이용한 데크가 구현되어있습니다.
 
 
 
-
+---
 ## 5. 참고 자료
 https://gmlwjd9405.github.io/2018/08/03/data-structure-stack.html
 
