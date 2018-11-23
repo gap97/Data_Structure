@@ -4,8 +4,11 @@
 C언어를 이용하여 구현한 Data Structure(Stack, List, Queue)입니다.
 
 
+
+
 ## 1. Stack
 한 쪽 끝에서만 자료를 넣고 뺄 수 있는 LIFO(Last In First Out) 형식의 자료 구조로, LIFO(Last In First Out) 를 따릅니다. 즉, 가장 최근에 스택에 추가한 항목이 가장 먼저 제거될 항목입니다. 
+
 
 ### ▸ Array를 이용한 기본 structure는 다음과 같습니다.
 ```c
@@ -18,6 +21,7 @@ typedef struct {
 	int top;
 } Stack;
 ```
+
 
 ### ▸ Linked List를 이용한 기본 structure는 다음과 같습니다.
 ```c
@@ -38,6 +42,8 @@ typedef struct {
 
 } Stack;
 ```
+
+
 ### ▸다음과 같은 연산을 포함합니다.
 pop(Stack *pStack): 스택에서 가장 위에 있는 항목을 제거합니다.
 
@@ -56,8 +62,13 @@ IsEmptyStack(Stack *pStack): 스택이 비어있는지를 검사합니다.
 CountStackItem(Stack *pStack): 스택에 얼마만큼의 항목이 있는지 알아봅니다.
 
 
+
+
+
+
 ## 2. Queue
 컴퓨터의 기본적인 자료 구조의 한가지로, 먼저 집어 넣은 데이터가 먼저 나오는 FIFO(First In First Out)구조로 저장하는 형식입니다. 큐(Queue)는 FIFO(First-In-First-Out) 를 따릅니다.
+
 
 ### ▸ Array를 이용한 기본 structure는 다음과 같습니다.
 ```c
@@ -71,6 +82,8 @@ typedef struct {
 
 }Queue;
 ```
+
+
 ### ▸ Linked List를 이용한 기본 structure는 다음과 같습니다.
 ```c
 typedef struct QNode {
@@ -88,6 +101,8 @@ typedef struct {
 
 }Queue;
 ```
+
+
 ### ▸다음과 같은 연산을 포함합니다.
 Queue *createQueue(): 큐를 생성합니다.
 
@@ -103,8 +118,12 @@ peek(Queue *Q) : 큐에서 맨 앞의 item이 무엇인지 볼 수 있습니다.
 
 
 
+
+
+
 ## 3. List
 순서가 있는 데이터의 모임입니다.
+
 
 ### ▸ Array를 이용한 기본 structure는 다음과 같습니다.
 ```c
@@ -118,6 +137,7 @@ typedef struct List {
 
 }List;
 ```
+
 ### ▸ Linked List를 이용한 기본 structure는 다음과 같습니다.
 ```c
 typedef struct ListNode {
@@ -137,6 +157,8 @@ typedef struct HeadNode {
 
 }List;
 ```
+
+
 ### ▸다음과 같은 연산을 포함합니다.
 IsEmptyList(List *list) : List가 비어있는지를 검사합니다.
 
@@ -154,8 +176,14 @@ void DestroyList(List *list) : list를 삭제합니다.
 
 
 
+
+
+
 ## 4. 그 외
 C언어를 이용한 데크가 구현되어있습니다.
+
+
+
 
 
 
