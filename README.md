@@ -10,13 +10,11 @@ C언어를 이용하여 구현한 Data Structure(Stack, List, Queue)입니다.
 ### ▸ Array를 이용한 기본 structure는 다음과 같습니다.
 
 typedef struct {
-
 	int* stack;
 
 	int size;
 	
 	int top;
-
 } Stack;
 
 ### ▸ Linked List를 이용한 기본 structure는 다음과 같습니다.
